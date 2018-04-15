@@ -1,8 +1,8 @@
 # Spark Shell
 ## Basic Syntax
-var: define a variable
-val: define an immutable variable
-sc.textFile('filePath'): returns an RDD whose contents is the 
+var: define a variable\
+val: define an immutable variable\
+sc.textFile('filePath'): Creates an RDD whose content is the lines of the file.\
 
 ## Transformations
 ### map
